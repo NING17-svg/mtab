@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人书签导航站</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧侧边栏 -->
+        <div class="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-bookmark"></i> WebNav</h1>
+                <p>个人网站导航系统</p>
+            </div>
+            
+            <!-- 搜索框 -->
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="搜索书签...">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="active">
+                    <a href="#dev-deploy"><i class="fas fa-code"></i> 开发与部署</a>
+                </li>
+                <li>
+                    <a href="#seo-analytics"><i class="fas fa-chart-line"></i> SEO与网站分析</a>
+                </li>
+                <li>
+                    <a href="#marketing"><i class="fas fa-ad"></i> 营销与收益</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="fas fa-info-circle"></i> 关于本站</a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <p>© 2025 宁十七的上站书签导航</p>
+            </div>
+        </div>
+
+        <!-- 右侧主内容区 -->
+        <div class="main-content">
+            <!-- 开发与部署 -->
+            <section id="dev-deploy" class="category-section">
+                <div class="section-header">
+                    <i class="fas fa-folder"></i> 开发与部署
+                </div>
+                <div class="cards-container">
+                    <!-- GitHub -->
+                    <div class="card">
+                        <a href="https://github.com/" target="_blank">
+                            <div class="card-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>GitHub</h3>
+                                <p>代码托管与版本控制</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- AWS -->
+                    <div class="card">
+                        <a href="https://aws.amazon.com/cn/" target="_blank">
+                            <div class="card-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>亚马逊AWS</h3>
+                                <p>个人服务器和云服务</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Vercel -->
+                    <div class="card">
+                        <a href="https://vercel.com" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Vercel</h3>
+                                <p>前端应用部署平台</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Render -->
+                    <div class="card">
+                        <a href="https://dashboard.render.com" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Render</h3>
+                                <p>应用托管与部署服务</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Cloudflare -->
+                    <div class="card">
+                        <a href="https://www.cloudflare-cn.com/" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Cloudflare</h3>
+                                <p>CDN与网站加速服务</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEO与网站分析 -->
+            <section id="seo-analytics" class="category-section">
+                <div class="section-header">
+                    <i class="fas fa-folder"></i> SEO与网站分析
+                </div>
+                <div class="cards-container">
+                    <!-- Google Analytics -->
+                    <div class="card">
+                        <a href="https://analytics.google.com/" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-bar"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Google Analytics</h3>
+                                <p>网站流量分析工具</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Google Trends -->
+                    <div class="card">
+                        <a href="https://trends.google.com/trends/" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Google Trends</h3>
+                                <p>热门搜索趋势分析</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Search Console -->
+                    <div class="card">
+                        <a href="https://search.google.com" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Search Console</h3>
+                                <p>谷歌搜索优化工具</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- 谷歌下拉词 -->
+                    <div class="card">
+                        <a href="https://searchsuggest.tips/?keyword=" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-keyboard"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>谷歌下拉词</h3>
+                                <p>搜索建议与关键词发现</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Ahrefs关键词难度 -->
+                    <div class="card">
+                        <a href="https://ahrefs.com/keyword-difficulty" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Ahrefs关键词难度</h3>
+                                <p>关键词竞争分析</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Ahrefs免费SEO工具 -->
+                    <div class="card">
+                        <a href="https://ahrefs.com/free-seo-tools" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Ahrefs免费SEO工具</h3>
+                                <p>综合SEO工具集</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- AITDK -->
+                    <div class="card">
+                        <a href="http://www.aitdk.com" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>AITDK</h3>
+                                <p>SEO数据分析平台</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 营销与收益 -->
+            <section id="marketing" class="category-section">
+                <div class="section-header">
+                    <i class="fas fa-folder"></i> 营销与收益
+                </div>
+                <div class="cards-container">
+                    <!-- Google Adsense -->
+                    <div class="card">
+                        <a href="https://www.google.com/adsense" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-ad"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Google Adsense</h3>
+                                <p>网站广告变现平台</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Toolify榜单 -->
+                    <div class="card">
+                        <a href="https://www.toolify.ai/ai-websites" target="_blank">
+                            <div class="card-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="card-body">
+                                <h3>Toolify榜单</h3>
+                                <p>AI网站收入与排名</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 关于本站 -->
+            <section id="about" class="category-section about-section">
+                <div class="section-header">
+                    <i class="fas fa-folder"></i> 关于本站
+                </div>
+                <div class="about-content">
+                    <h2>个人书签导航站</h2>
+                    <p>这是我在进行网站开发时用到的书签导航网站，使用纯HTML和CSS技术实现，无需后端支持，方便收藏和快速访问常用的网站开发资源。</p>
+                    
+                    <h3>网站特点</h3>
+                    <ul>
+                        <li><strong>轻量级</strong>：纯静态HTML实现，无需服务器支持</li>
+                        <li><strong>响应式设计</strong>：适配桌面和移动设备</li>
+                        <li><strong>分类管理</strong>：将书签按照不同类别进行整理</li>
+                        <li><strong>简单易用</strong>：直观的界面设计，一键访问常用网站</li>
+                        <li><strong>易于扩展</strong>：简单编辑HTML文件即可添加新的书签</li>
+                    </ul>
+                    
+                    <h3>如何使用</h3>
+                    <p>直接点击卡片访问对应网站，或使用左侧的搜索框搜索特定的网站。</p>
+                    
+                    <h3>联系方式</h3>
+                    <p>如有问题或建议，请通过以下方式联系我：</p>
+                    <p><i class="fas fa-envelope"></i> 微信: 445930143</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <!-- 引入JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html> 
